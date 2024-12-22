@@ -1,3 +1,4 @@
+mekan-bul-backend-gjsv4uyrw-jacobss7s-projects.vercel.app
 
 # Backend API Projesi
 
@@ -30,6 +31,7 @@ backend/
 ## 🚀 Kurulum ve Çalıştırma
 
 ### Gerekli Bağımlılıkların Kurulumu
+
 Projenin çalışabilmesi için gerekli bağımlılıkları yüklemek için aşağıdaki komutu çalıştırın:
 
 ```bash
@@ -37,6 +39,7 @@ npm install
 ```
 
 ### Çevre Değişkenleri (Environment Variables)
+
 Projenin `MongoDB` bağlantı adresini ve diğer gerekli bilgileri içeren bir `.env` dosyası oluşturun. Örnek `.env` dosyası:
 
 ```
@@ -45,6 +48,7 @@ PORT=3000
 ```
 
 ### Geliştirme Ortamında Çalıştırma
+
 Projenizi geliştirme ortamında çalıştırmak için:
 
 ```bash
@@ -64,10 +68,13 @@ npm start
 ## 📌 API Endpoint'leri
 
 ### `GET /api/venues`
+
 Tüm mekanları listeler.
 
 ### `POST /api/venues`
-Yeni bir mekan ekler. **Body:** 
+
+Yeni bir mekan ekler. **Body:**
+
 ```json
 {
   "name": "Mekan Adı",
@@ -77,10 +84,13 @@ Yeni bir mekan ekler. **Body:**
 ```
 
 ### `GET /api/venues/:venueId`
+
 Belirtilen bir mekanın detaylarını getirir.
 
 ### `PUT /api/venues/:venueId`
+
 Bir mekanı günceller. **Body:**
+
 ```json
 {
   "name": "Yeni Mekan Adı",
@@ -90,10 +100,13 @@ Bir mekanı günceller. **Body:**
 ```
 
 ### `DELETE /api/venues/:venueId`
+
 Belirtilen bir mekanı siler.
 
 ### `POST /api/venues/:venueId/comments`
+
 Belirtilen bir mekan için yorum ekler. **Body:**
+
 ```json
 {
   "text": "Harika bir mekan!",
@@ -102,11 +115,13 @@ Belirtilen bir mekan için yorum ekler. **Body:**
 ```
 
 ### `GET /api/venues/:venueId/comments/:commentId`
+
 Belirli bir yorumu getirir.
 
 ---
 
 ## 🛠️ Kullanılan Teknolojiler
+
 - **Node.js**
 - **Express.js**
 - **MongoDB** (Mongoose ile)
@@ -126,4 +141,5 @@ Belirli bir yorumu getirir.
 ---
 
 ## 📄 Lisans
+
 Bu proje MIT lisansı ile lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasını inceleyin.
