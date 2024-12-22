@@ -48,11 +48,10 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3000/api/venues/{{venueId}}/comments",
+							"raw": "{{server}}/api/venues/{{venueId}}/comments",
 							"host": [
-								"localhost"
+								"{{server}}"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"venues",
@@ -102,11 +101,10 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3000/api/venues/{{venueId}}/comments/{{commentId}}",
+							"raw": "{{server}}/api/venues/{{venueId}}/comments/{{commentId}}",
 							"host": [
-								"localhost"
+								"{{server}}"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"venues",
@@ -147,11 +145,10 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3000/api/venues/{{venueId}}/comments/{{commentId}}",
+							"raw": "{{server}}/api/venues/{{venueId}}/comments/{{commentId}}",
 							"host": [
-								"localhost"
+								"{{server}}"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"venues",
@@ -187,11 +184,10 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "localhost:3000/api/venues/{{venueId}}/comments/{{commentId}}",
+							"raw": "{{server}}/api/venues/{{venueId}}/comments/{{commentId}}",
 							"host": [
-								"localhost"
+								"{{server}}"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"venues",
@@ -241,11 +237,10 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3000/api/venues",
+							"raw": "{{server}}/api/venues",
 							"host": [
-								"localhost"
+								"{{server}}"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"venues"
@@ -276,11 +271,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "localhost:3000/api/venues/?lat=1&long=1",
+							"raw": "{{server}}/api/venues/?lat=1&long=1",
 							"host": [
-								"localhost"
+								"{{server}}"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"venues",
@@ -324,11 +318,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "localhost:3000/api/venues/{{venueId}}",
+							"raw": "{{server}}/api/venues/{{venueId}}",
 							"host": [
-								"localhost"
+								"{{server}}"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"venues",
@@ -367,11 +360,10 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3000/api/venues/{{venueId}}",
+							"raw": "{{server}}/api/venues/{{venueId}}",
 							"host": [
-								"localhost"
+								"{{server}}"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"venues",
@@ -405,11 +397,10 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "localhost:3000/api/venues/{{venueId}}",
+							"raw": "{{server}}/api/venues/{{venueId}}",
 							"host": [
-								"localhost"
+								"{{server}}"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"venues",
