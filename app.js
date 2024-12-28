@@ -16,8 +16,7 @@ const apiRouter = require("./app_api/routes/index");
 const app = express();
 
 const allowedOrigins = [
-  "http://localhost:5173",
-  "https://mekanbul-odev-1.vercel.app",
+  "https://mekanbul-odev-1-9xv3dxtwh-jacobss7s-projects.vercel.app/",
 ];
 
 app.use(
