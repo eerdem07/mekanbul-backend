@@ -50,7 +50,7 @@ exports.listVenues = function (req, res, next) {
       });
 
       if (venues.length > 0) createResponse(res, "200", venues);
-      else createResponse(res, "200", { status: "Yakında mekan yok!" });
+      else createResponse(res, "200", []);
     });
   } catch (error) {
     createResponse(res, "404", error);
