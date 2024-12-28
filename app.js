@@ -15,11 +15,23 @@ const apiRouter = require("./app_api/routes/index");
 
 const app = express();
 
+app.use(cors({ origin: "*" }));
+
 app.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
   res.header("Access-Control-Allow-Methods", "GET,PUT,POST,DELETE");
   res.header("Access-Control-Allow-Headers", "Content-Type, Authorization");
   next();
+});
+
+app.options("*", (req, res) => {
+  res.header(
+    "Access-Control-Allow-Origin",
+    "https://mekanbul-odev-1.vercel.app"
+  );
+  res.header("Access-Control-Allow-Methods", "GET,POST,PUT,DELETE");
+  res.header("Access-Control-Allow-Headers", "Content-Type, Authorization");
+  res.sendStatus(200);
 });
 
 app.use(logger("dev"));
