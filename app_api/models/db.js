@@ -3,7 +3,7 @@ const dbURI = process.env.DATABASE_URI;
 
 mongoose.connect(dbURI);
 mongoose.connection.on("connected", () => {
-  console.log(dbURI + " adresindeki veritabanına bağlanıldı!\n");
+  console.log("Veritabanına bağlanıldı!\n");
 });
 
 mongoose.connection.on("error", () => {
